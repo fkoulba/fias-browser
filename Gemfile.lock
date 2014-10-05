@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/ministrycentered/activeuuid.git
+  revision: a7c9d5eea83202dc4f671d9d51d2ec7d74ab1b03
+  branch: rails4
+  specs:
+    activeuuid (0.4.0)
+      activerecord (>= 4.0)
+      uuidtools
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -108,11 +117,13 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    uuidtools (2.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activeuuid!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails

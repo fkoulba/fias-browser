@@ -35,6 +35,7 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'activeuuid', :git => 'https://github.com/ministrycentered/activeuuid.git', :branch => 'rails4'
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
